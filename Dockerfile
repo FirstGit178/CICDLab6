@@ -2,7 +2,7 @@
 FROM eclipse-temurin:21
 WORKDIR /app
 
-# Copy the fat jar built by Maven (see steop 6)
+# Copy the fat jar built by Maven (see step 6)
 COPY target/*.jar app.jar
 
 EXPOSE 8080
